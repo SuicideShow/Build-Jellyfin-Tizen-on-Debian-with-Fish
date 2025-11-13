@@ -6,8 +6,14 @@ Main Repo here: https://github.com/jellyfin/jellyfin-tizen
 -------------------------------------------------
 
 # How to Build Jellyfin for Samsung SmartTV (Tizen)
+# About the fish script:
+The `install.jelly-tizen.update.function.fish` script is only needed once, to enter your TVs IP-Adress and install the `getnewjellytizen.fish` script into your '$HOME/.config/fish/functions' folder. It can be deleted after its installed.
 
+It also adds the paths below to your $PATH and creates a tizen sdb shortcut, which is needed to connect and deploy the jellyfin.wgt.
+
+# Initial Setup and first Build:
 # Prerequsities:
+* Fish Shell <>< https://github.com/fish-shell/fish-shell
 * Download Tizen Studio <https://developer.tizen.org/development/tizen-studio/download>
 * install __git__
 * install __NVM__ to get __Node.js 20 LTS (Iron)__ and __npm (9.6.4)__
