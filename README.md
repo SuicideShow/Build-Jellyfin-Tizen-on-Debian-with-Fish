@@ -27,7 +27,7 @@ Main Repo here: https://github.com/jellyfin/jellyfin-tizen
 _______________________________________________________________________________________________________________________________________
 
 # Install Tizen Studio
-* `$ ./web-ide_Tizen_Studio_*.*_ubuntu-64.bin`
+ `$ ./web-ide_Tizen_Studio_*.*_ubuntu-64.bin`
   
 Open Package Manager after installation is done and install the following packages:
 
@@ -49,6 +49,8 @@ Fish: $ fish_add_path /home/user/tizen-studio/tools/ide/bin
 Fish: $ fish_add_path /home/user/tizen-studio/tools/device-manager/bin
 Fish: $ fish_add_path /home/user/tizen-studio/tools/certificate-manager
 ```
+Note: The fish installer script will add the 3 locations to your PATH
+
 
 # Start the Tizen Device Manager:
  `$ cd /home/user/tizen-studio/tools/device-manager/bin` *not needed if already in PATH*
