@@ -3,9 +3,9 @@ Step by Step Guide for first time setup and fish function for update easy build 
 
 Main Repo here: https://github.com/jellyfin/jellyfin-tizen
 
-
-How to Build Jellyfin for Samsung SmartTV (Tizen)
 -------------------------------------------------
+
+# How to Build Jellyfin for Samsung SmartTV (Tizen)
 
 # Prerequsities:
 * Download Tizen Studio <https://developer.tizen.org/development/tizen-studio/download>
