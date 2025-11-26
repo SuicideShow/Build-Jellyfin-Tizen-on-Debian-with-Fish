@@ -34,7 +34,7 @@ echo '        echo ""' >> $HOME/.config/fish/functions/getnewjellytizen.fish
 echo '        while read -l webversion -P $r"Enter Version: "$n #ask for version number input' >> $HOME/.config/fish/functions/getnewjellytizen.fish
 echo '                or return 1' >> $HOME/.config/fish/functions/getnewjellytizen.fish
 echo '                switch $webversion' >> $HOME/.config/fish/functions/getnewjellytizen.fish
-echo '                        case \'*.*.z\'' >> $HOME/.config/fish/functions/getnewjellytizen.fish
+echo '                        case \'*.*.*\'' >> $HOME/.config/fish/functions/getnewjellytizen.fish
 echo '                                sudo -v' >> $HOME/.config/fish/functions/getnewjellytizen.fish
 echo '                                or break' >> $HOME/.config/fish/functions/getnewjellytizen.fish
 echo '                                cd $HOME/Downloads/' >> $HOME/.config/fish/functions/getnewjellytizen.fish
